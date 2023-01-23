@@ -10,9 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         let z = document.getElementById("box3").value = Cube[2];
 
     });
-    document.getElementById("ToTheFourth").addEventListener("click", function () {
-        myFourth();
-    });
+    document.getElementById("ToTheFourth").addEventListener("click", myFourth);
 });
 
 
